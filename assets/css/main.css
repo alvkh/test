@@ -1,0 +1,43 @@
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
+html{
+    color: black;
+}
+@font-face {
+    font-family:Poppins-Bold;
+    src: url(../font/Poppins/Poppins-Bold.ttf);
+    
+}
+@font-face {
+    font-family:Poppins-Regular;
+    src: url(../font/Poppins/Poppins-Regular.ttf);
+    
+}
+@font-face {
+    font-family:Poppins-Light;
+    src: url(../font/Poppins/Poppins-Light.ttf);
+    
+}
+@font-face {
+    font-family:Poppins-Medium;
+    src: url(../font/Poppins/Poppins-Medium.ttf);
+    
+}
+@font-face {
+    font-family:Poppins-SemiBold;
+    src: url(../font/Poppins/Poppins-SemiBold.ttf);
+    
+}
+@font-face {
+    font-family:Righteous-Regular;
+    src: url(../font/Righteous/Righteous-Regular.ttf);
+    
+}
